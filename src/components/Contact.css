@@ -1,0 +1,43 @@
+.contact-container{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.contact{
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-left{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact-text{
+    font-family: "Gilroy-Medium";
+}
+
+.contact-wrap{
+    display: flex;
+    gap: 50px;
+    font-family: "News706BT";
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.contact-right {
+    display: flex;
+    gap: 30px;
+    margin-top: auto;
+}
+
+.border-line{
+    max-width: 1000px;
+    height: 2px;
+    background-color: #000000;
+    margin: 50px auto;
+}

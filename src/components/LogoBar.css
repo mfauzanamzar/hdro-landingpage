@@ -1,0 +1,14 @@
+.logobar-container{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.logobar{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}

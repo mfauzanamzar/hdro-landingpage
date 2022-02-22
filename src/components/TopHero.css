@@ -1,0 +1,143 @@
+
+
+@font-face {
+    font-family: "News706BT";
+  src: url("../fonts/News706-BT-Bold.ttf") format("truetype");
+ }
+
+ 
+@font-face {
+    font-family: "Gilroy-Medium";
+  src: url("../fonts/Gilroy-Medium.ttf") format("truetype");
+ }
+
+
+.tophero-container {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.tophero {
+  max-width: 1200px;
+  padding: 20px;
+  margin: 70px auto;
+}
+
+.tophero-flex{
+  display: flex;
+  gap: 100px;
+  justify-content: space-between;
+}
+
+.tophero-text {
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  flex: 0.6;
+  background: url("/public/splash/Splash1.png");
+  background-size: 300px;
+  background-repeat: no-repeat;
+  background-position: 20%;
+}
+
+.tophero-left{
+  margin-top: auto;
+  font-family: "News706BT";
+  flex: 0.4 1;
+  text-align: center;
+  justify-content: center;
+  background: url("/public/splash/Splash4.png");
+  background-repeat: no-repeat;
+  background-size: 130px;
+  background-position-x: 50%;
+  background-position-y: 21px;
+  padding-top: 50px;
+}
+
+.tophero-left-heading span{
+  font-family: "Gilroy-Medium";
+ font-size: 16px;
+ font-weight: 400;
+}
+
+.tophero-left-detail{
+  margin: auto;
+  padding-top: 20px;
+  padding-right: 20px;
+  text-align: right;
+  width: 114px;
+  font-family: "Gilroy-Medium";
+}
+
+.tophero-heading {
+  max-width: 380px;  
+  font-family: "News706BT";
+  font-weight: bold;
+}
+
+.tophero-subheading{
+    font-family: "Gilroy-Medium";
+}
+
+.tophero-button {
+  display: flex;
+  gap: 20px;
+}
+
+.button {
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.donate {
+  background-color: #345b97;
+  color: #fff;
+  font-size: 20px;
+  font-family: "Gilroy-Bold";
+  box-shadow: 0px 4px 10px #5f5f5f;
+}
+
+.discover {
+  background: none;
+  font-size: 16px;
+  font-family: "Gilroy-Bold";
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.tophero-line img{
+  max-width: 150px;
+}
+
+.tophero-items {
+  margin-top: 170px;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  background: url("/public/splash/Splash7.png");
+  background-repeat: no-repeat;
+  background-size: 370px;
+  background-position-x: 35%;
+  background-position-y: 37%;
+}
+
+.tophero-items .item {
+  display: flex;
+  flex-direction: column;
+  max-width: 180px;
+  gap: 20px;
+}
+
+.item-heading{
+    
+  font-family: "News706BT";
+  font-weight: bold;
+}
+
+.item-subheading{
+    font-family: "Gilroy-Medium";
+}

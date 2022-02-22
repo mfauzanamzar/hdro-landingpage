@@ -1,0 +1,27 @@
+.footer{
+    max-width: 1000px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.footer-text{
+    font-family: "Gilroy-Medium";
+}
+
+.footer-bar{
+    display: flex;
+    justify-content: space-between;
+    font-family: "Gilroy-Bold";
+}
+
+.footer-bar__menu{
+    display: flex;
+    gap: 20px;
+}
+
+.footer-bar__menu a{
+    color: black;
+    text-decoration: none;
+}

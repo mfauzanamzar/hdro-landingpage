@@ -1,0 +1,68 @@
+.category-container {
+  width: 100%;
+  height: 974px;
+  margin: 0;
+  padding: 0;
+  background: url("/public/background.png");
+  color: white;
+}
+
+.category {
+  max-width: 1200px;
+  padding: 50px 20px;
+  margin: 0 auto;
+}
+
+.category-heading__text {
+  font-family: "News706BT";
+  font-weight: bold;
+}
+
+.category-item__name {
+  font-family: "News706BT";
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.category-item-wrapper {
+  position: relative;
+  max-width: 1201px;
+  margin: auto;
+  display: flex;
+  gap: 50px;
+  justify-content: space-evenly;
+}
+
+.category-item{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 300px;
+}
+
+.splash1{
+    position: absolute;
+    left: -25%;
+    top: 35%;
+}
+
+.splash2{
+    position: absolute;
+    left: 35%;
+}
+
+.splash1 img, .splash2 img{
+    width: 110px;
+}
+
+.category-item__text {
+  font-family: "Gilroy-Medium";
+  font-size: 12px;
+  text-decoration: none;
+  color: white;
+}
+
+.category-item__image{
+    box-shadow: 0px 10px 14px #020a14;
+}

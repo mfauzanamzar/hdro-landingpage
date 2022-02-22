@@ -1,0 +1,54 @@
+
+@font-face {
+    font-family: "Gilroy-Bold";
+  src: url("../fonts/Gilroy-Bold.ttf") format("truetype");
+ }
+
+.bottomhero-container{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.bottomhero{
+    display: flex;    
+    max-width: 1200px;    
+    padding: 20px;
+    margin: 100px auto;
+}
+
+.bottomhero-left{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    flex: 0.5;
+    background: url("/public/splash/Splash1.png");
+    background-repeat: no-repeat;
+    background-size: 250px;
+    background-position-x: 30%;
+}
+
+.bottomhero-heading{
+    font-family: "News706BT";
+    font-weight: bold;
+}
+
+.bottomhero-subheading{
+    max-width: 300px;
+    font-family: "Gilroy-Medium";
+}
+
+.bottomhero-othertext{
+    font-family: "Gilroy-Bold";
+}
+
+.bottomhero-right{
+    flex: 0.7;
+}
+
+.contact-button{
+    background-color: #345b97;
+    color: #fff;
+    font-size: 16px;
+    font-family: "Gilroy-Bold";
+}
