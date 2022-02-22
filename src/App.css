@@ -20,12 +20,12 @@
 
 .relative{
   position: relative;
-  height: 1300px;
+  height: 1400px;
 }
 
 .absolute{
   position: absolute;
-  top: 658px;
+  top: 752px;
   left: 0;
   right: 0;
 }

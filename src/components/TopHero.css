@@ -19,7 +19,7 @@
 }
 
 .tophero {
-  max-width: 1200px;
+  max-width: 1300px;
   padding: 20px;
   margin: 70px auto;
 }
@@ -114,14 +114,15 @@
 }
 
 .tophero-line img{
-  max-width: 150px;
+  max-width: 106px;
+  height: 3px;
 }
 
 .tophero-items {
   margin-top: 170px;
   display: flex;
   gap: 30px;
-  justify-content: center;
+  justify-content: space-between;
   background: url("/public/splash/Splash7.png");
   background-repeat: no-repeat;
   background-size: 370px;
@@ -132,14 +133,18 @@
 .tophero-items .item {
   display: flex;
   flex-direction: column;
-  max-width: 180px;
-  gap: 20px;
+  max-width: 200px;
+  gap: 16px;
 }
 
 .item-heading{
-    
+  font-size: 20px;
   font-family: "News706BT";
   font-weight: bold;
+}
+
+.item-image{
+  height: 50px;
 }
 
 .item-subheading{

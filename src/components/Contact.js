@@ -18,7 +18,7 @@ const Contact = () => {
         <div className="contact-right">
           <div className="contact-social">
             <a href="#">
-              <img width={30} src={logoTwitter} alt="twitter" />
+              <img width={28} src={logoTwitter} alt="twitter" />
             </a>
           </div>
 
@@ -29,7 +29,7 @@ const Contact = () => {
           </div>
           <div className="contact-social">
             <a href="#">
-              <img width={30} src={logoInstagram} alt="Instagram" />
+              <img width={24} src={logoInstagram} alt="Instagram" />
             </a>
           </div>
         </div>

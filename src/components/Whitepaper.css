@@ -17,7 +17,7 @@
 }
 
 .whitepaper-img img{
-    box-shadow: 0px 10px 15px #5f5f5f
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.5)
 }
 
 .whitepaper-text{
@@ -44,6 +44,7 @@
     font-family: "Gilroy-Medium";
     line-height: 26px;
     color: white;
+    padding-left: 20px;
 }
 
 .whitepaper-button{
