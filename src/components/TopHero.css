@@ -100,6 +100,10 @@
   box-shadow: 0px 4px 10px #5f5f5f;
 }
 
+.donate:hover{
+  background-color: #213b61;
+}
+
 .discover {
   background: none;
   font-size: 16px;

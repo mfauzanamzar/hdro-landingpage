@@ -52,3 +52,7 @@
     font-size: 16px;
     font-family: "Gilroy-Bold";
 }
+
+.contact-button:hover{
+    background-color: #213b61;
+}
