@@ -2,7 +2,7 @@ import React from "react";
 import "./Category.css";
 import Image1 from "../images/SizeTeam.png";
 import Image2 from "../images/SizePhoto1.png";
-import Image3 from "../images/SizeTeam3.jpg";
+import Image3 from "../images/SizeTeam3.png";
 
 const Category = () => {
   const CategoryItems = [
