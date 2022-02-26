@@ -8,6 +8,7 @@
   max-width: 1200px;
   margin: 0 auto;
   padding: 100px;
+  padding-top: 0;
 }
 
 .team-name{
@@ -105,5 +106,10 @@
   .team1 , .team2, .team3{
     text-align: center;
   }
+
+  
+.team {
+padding: 100px;
+}
   
 }
