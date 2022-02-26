@@ -4,6 +4,7 @@ import Community from "../images/Community.png";
 import Crypto from "../images/Crypto.png";
 import Transparancy from "../images/Transparancy.png";
 import Authenticity from "../images/Authenticity.png";
+import WorldMap from "../images/WorldMap2.png"
 import { HiArrowSmDown } from 'react-icons/hi';
 
 const TopHero = () => {
@@ -43,23 +44,27 @@ const TopHero = () => {
         <div className="tophero-flex">
           <div className="tophero-text">
             <div className="tophero-other"></div>
-            <div className="tophero-heading">
-              <h1 className="tophero-heading__text">HMN token</h1>
-              <h1 className="tophero-heading__text">
+            <div data-aos="fade-up"  className="tophero-heading">
+              <h1 className="tophero-heading__text desktop">HMN token</h1>
+              <h1 className="tophero-heading__text desktop">
                 using cryptopcurrency to help anak bangsa.
               </h1>
+              <h1 className="tophero-heading__text mobile">HMN token using cryptocurrency </h1>
+              <h1 className="tophero-heading__text mobile">
+               to help anak bangsa.
+              </h1>
             </div>
-            <p className="tophero-subheading">
+            <p data-aos="fade-up" data-aos-delay="200" className="tophero-subheading">
               HMN is dedicated to using the power of decentralized finance to
               help rid the planet lack of energy
             </p>
-            <div className="tophero-button">
+            <div data-aos="fade-up"  data-aos-delay="200" className="tophero-button">
               <button className="button donate">Donate Now</button>
               <button className="button discover">Discover <HiArrowSmDown/></button>
             </div>
           </div>
-          <div className="tophero-left">
-            <h1 className="tophero-left-heading">
+          <div data-aos="fade-left" className="tophero-left">
+            <h1  className="tophero-left-heading">
               142 <span>Lorem</span>
             </h1>
             <div className="tophero-left-detail">
@@ -73,7 +78,7 @@ const TopHero = () => {
             <img  src="/Line.png" alt="line" />
           </div>
           {items.map((item, index) => (
-            <div key={index} className="item">
+            <div data-aos="fade-right" key={index} className="item">
               <div className="item-image">
                 <img
                   width={item.width}

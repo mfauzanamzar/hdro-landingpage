@@ -1,6 +1,7 @@
 .footer{
-    max-width: 1100px;
+    max-width: 1240px;
     margin: 50px auto;
+    padding: 0 70px;
     display: flex;
     flex-direction: column;
     gap: 50px;
@@ -24,4 +25,29 @@
 .footer-bar__menu a{
     color: black;
     text-decoration: none;
+}
+@media (max-width: 600px) {
+    .footer-bar p{
+        font-size: 14px;
+    }
+
+    .footer-bar__menu a{
+        font-size: 12px;
+    }
+}
+@media (max-width: 800px) {
+
+    .footer-bar{
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .footer{
+        padding: 0 20px;
+    }
+
+    .footer-text{
+        display: none;
+    }
 }

@@ -9,32 +9,34 @@ const Contact = () => {
     <div className="contact-container">
       <div className="contact">
         <div className="contact-left">
-          <p className="contact-text">Lorem ipsum dolor sit amet consectetur</p>
+          <p data-aos="fade-up" className="contact-text">Lorem ipsum dolor sit amet consectetur</p>
           <div className="contact-wrap">
-            <p className="contact-phone">+62 812 1234 5678</p>
-            <p className="contact-email">mail@hdro.com</p>
+            <p data-aos="fade-right" className="contact-phone">+62 812 1234 5678</p>
+            <p data-aos="fade-left"className="contact-email">mail@hdro.com</p>
           </div>
         </div>
-        <div className="contact-right">
-          <div className="contact-social">
+        <div data-aos="fade-up" className="contact-right">
+          <div  className="contact-social">
             <a href="#">
-              <img width={28} src={logoTwitter} alt="twitter" />
+              <img className="twitter" width={28} src={logoTwitter} alt="twitter" />
             </a>
           </div>
 
           <div className="contact-social">
             <a href="#">
-              <img width={30} src={logoYoutube} alt="Youtube" />
+              <img className="youtube" width={30} src={logoYoutube} alt="Youtube" />
             </a>
           </div>
           <div className="contact-social">
             <a href="#">
-              <img width={24} src={logoInstagram} alt="Instagram" />
+              <img className="instagram" width={24} src={logoInstagram} alt="Instagram" />
             </a>
           </div>
         </div>
       </div>
-      <div className="border-line"></div>
+      <div className="border-container">
+        <div className="border-line"></div>
+      </div>
     </div>
   );
 };

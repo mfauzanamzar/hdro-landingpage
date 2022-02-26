@@ -5,11 +5,11 @@ import picture from "../images/SizePhoto2.png";
 const Whitepaper = () => {
   return (
     <div className="whitepaper-container">
-      <div className="whitepaper">
-        <div className="whitepaper-img">
-          <img width={400} src={picture} alt="pitcure" />
+      <div  className="whitepaper">
+        <div data-aos="fade-right" className="whitepaper-img">
+          <img  width={400} src={picture} alt="pitcure" />
         </div>
-        <div className="whitepaper-text">
+        <div data-aos="fade-left" className="whitepaper-text">
           <h1 className="whitepaper-heading">Whitepaper & Roadmap</h1>
           <p className="whitepaper-detail">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
@@ -23,7 +23,7 @@ const Whitepaper = () => {
             <li>Aenean eu enim justo</li>
           </ul>
           <div className="whitepaper-button">
-            <button className="button read">Read the Whitepaper</button>
+            <button className="read">Read the Whitepaper</button>
           </div>
 
           <p className="whitepaper-othertext">*Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>

@@ -1,27 +1,71 @@
-.bottombar-container{
-    width: 100%;
-    margin: 0;
-    padding: 0;
+.bottombar-container {
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
-.bottombar{
-    max-width: 1100px;
+.bottombar {
+  max-width: 1240px;
+  padding: 0 70px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.bottombar-menu {
+  display: flex;
+  gap: 50px;
+  font-family: "Gilroy-Bold";
+  justify-content: left;
+  flex: 0.8;
+}
+
+.bottombar-menu a {
+  color: black;
+  text-decoration: none;
+}
+
+.bottombar-text{
+    display: none;
+}
+
+.bottombar-logo{
+    max-width: 1400px;
     margin: 0 auto;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-}
+    gap: 20px;
+  }
 
-.bottombar-menu{
-    display: flex;
-    gap: 50px;
-    font-family: "Gilroy-Bold";
-    justify-content: left;
-    flex: 0.8;
-}
+  @media (max-width: 600px) {
+    .bottombar-text{
+        font-size: 12px;
+    }
 
-.bottombar-menu a{
-    color: black;
-    text-decoration: none;
+    .contact-button{
+        font-size: 12px !important;
+        width: 150px !important;
+    }
+  }
 
+@media (max-width: 800px) {
+  .bottombar {
+    flex-direction: column;
+    gap: 30px;
+    padding: 0 40px;
+  }
+
+  .bottombar-menu{
+      display: none;
+  }
+
+  .bottombar-text{
+      display: unset;
+  }
+
+  .bottombar-logo img{
+      width: 100px;
+  }
 }

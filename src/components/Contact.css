@@ -5,8 +5,9 @@
 }
 
 .contact{
-    max-width: 1100px;
+    max-width: 1240px;
     margin: 0 auto;
+    padding: 0 70px;
     display: flex;
     justify-content: space-between;
 }
@@ -41,4 +42,50 @@
     height: 2px;
     background-color: #000000;
     margin: 50px auto;
+}
+
+.border-container{
+    padding: 0 70px;
+}
+@media (max-width: 600px) {
+
+    .contact-text{
+        font-size: 12px;
+    }
+
+    .contact-wrap{
+        font-size: 14px;
+    }
+
+    .twitter{
+        width: 18px;
+    }
+
+     .youtube{
+        width: 20px;
+    }
+
+    .instagram{
+        width: 16px;
+    }
+
+    .border-line{
+        margin: 20px auto;
+    }
+}
+@media (max-width: 800px) {
+
+    .contact{
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        text-align: center;
+        padding: 0 20px;
+    }
+
+    .border-container{
+        padding: 0 40px;
+    }
+
+
 }

@@ -12,8 +12,8 @@
 
 .bottomhero{
     display: flex;    
-    max-width: 1300px;    
-    padding: 20px;
+    max-width: 1400px;    
+    padding: 20px 70px;
     margin: 100px auto;
 }
 
@@ -46,6 +46,10 @@
     flex: 0.7;
 }
 
+.bottomhero-right img{
+    width: 100%;
+}
+
 .contact-button{
     background-color: #345b97;
     color: #fff;
@@ -55,4 +59,64 @@
 
 .contact-button:hover{
     background-color: #213b61;
+}
+
+@media (max-width: 600px) {
+
+    .bottomhero{
+        margin-bottom: 100px !important;
+    }
+
+    .bottomhero-right {
+        top: 190px !important;
+    }
+
+    .bottomhero-heading__text{
+        font-size: 20px;
+    }
+
+    .bottomhero-othertext{
+        font-size: 10px;
+    }
+
+    .bottomhero-subheading{
+        font-size: 12px;
+    }
+
+    .bottomhero-right img{
+        width: 100%;
+    }
+
+    .donate{
+        width: 150px !important;
+    }
+}
+
+@media (max-width: 800px) {
+    .bottomhero{
+        flex-direction: column;
+        position: relative;
+        margin-bottom: 200px;
+        padding: 20px;
+    }
+
+    .bottomhero-left{
+        text-align: center;
+        align-items: center;
+    }
+
+    .bottomhero-button{
+        margin-top: 48px;
+        z-index: 10;
+    }
+
+    .bottomhero-right{
+        position: absolute;
+        right: 0;
+        top: 227px;
+    }
+
+    .bottomhero-othertext{
+        width: 100%;
+    }
 }

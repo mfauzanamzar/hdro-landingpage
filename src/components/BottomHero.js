@@ -7,15 +7,15 @@ const BottomHero = () => {
     <div className="bottomhero-container">
       <div className="bottomhero">
         <div className="bottomhero-left">
-          <p className="bottomhero-othertext">TIME TO GET STARTED</p>
-          <div className="bottomhero-heading">
+          <p data-aos="fade-up" className="bottomhero-othertext">TIME TO GET STARTED</p>
+          <div data-aos="fade-up" data-aos-delay="200" className="bottomhero-heading">
             <h1 className="bottomhero-heading__text">So, you want to help?</h1>
             <h1 className="bottomhero-heading__text">Here's how.</h1>
           </div>
-          <p className="bottomhero-subheading">
+          <p data-aos="fade-up" data-aos-delay="400" className="bottomhero-subheading">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit.
           </p>
-          <div className="bottomhero-button">
+          <div data-aos="fade-up" data-aos-delay="400" className="bottomhero-button">
             <button className="button donate">Donate Now</button>
           </div>
         </div>

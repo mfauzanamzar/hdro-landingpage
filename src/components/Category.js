@@ -3,17 +3,20 @@ import "./Category.css";
 import Image1 from "../images/SizeTeam.png";
 import Image2 from "../images/SizePhoto1.png";
 import Image3 from "../images/SizeTeam3.png";
+import Aos from 'aos';
+import "aos/dist/aos.css";
+
 
 const Category = () => {
   return (
     <div className="category-container">
       <div className="category">
-        <div className="category-heading">
+        <div data-aos="fade-up" className="category-heading">
           <h1 className="category-heading__text"> HMN business</h1>
           <h1 className="category-heading__text"> focus on 3 categories</h1>
         </div>
       </div>
-      <div className="category-item-wrapper">
+      <div data-aos="fade-right"  className="category-item-wrapper">
         <div className="category-item">
           <img
             width={180}

@@ -2,6 +2,7 @@
   max-width: 1440px;
   margin: auto;
   padding: 0;
+  overflow-x: hidden;
 }
 
 .header{
@@ -28,4 +29,29 @@
   top: 752px;
   left: 0;
   right: 0;
+}
+
+@media (max-width: 600px) {
+  .absolute{
+    top: 1653px !important;
+  }
+  .relative{
+    height: 2500px !important;
+  }
+}
+
+
+
+@media (max-width: 800px) {
+  .header{
+    background : none
+  }
+
+  .relative{
+    height: 3000px;
+  }
+  .absolute{
+    top: 2052px;
+  }
+  
 }
