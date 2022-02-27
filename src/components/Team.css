@@ -11,14 +11,14 @@
   padding-top: 0;
 }
 
-.team-name{
-    font-family: "News706BT";
-    font-weight: bold;
-    font-size: 20px;
+.team-name {
+  font-family: "News706BT";
+  font-weight: bold;
+  font-size: 20px;
 }
 
-.team-detail{
-    font-family: "Gilroy-Medium";
+.team-detail {
+  font-family: "Gilroy-Medium";
 }
 
 .team-heading {
@@ -27,7 +27,7 @@
   font-weight: bold;
 }
 
-.teampicture{
+.teampicture {
   width: 100%;
   margin: 30px 0;
 }
@@ -38,78 +38,83 @@
   gap: 50px;
 }
 
-.teampicture{
+.teampicture {
   box-shadow: 0px 10px 10px #5f5f5f;
 }
 
-.team1, .team2, .team3{
+.team1,
+.team2,
+.team3 {
   max-width: 350px;
   margin: auto;
 }
 
-.team1{
+.team1 {
   position: relative;
 }
 
-.team3{
+.team3 {
   position: relative;
 }
 
-.splash{
+.splash {
   top: 25%;
   left: -40%;
   position: absolute;
   z-index: -1;
 }
 
-.splash img{
-   width: 200px;
+.splash img {
+  width: 200px;
 }
 
-.splashteam2{
+.splashteam2 {
   position: absolute;
   z-index: -1;
   top: 35%;
   right: -40%;
 }
 
-.splashteam2 img{
+.splashteam2 img {
   width: 200px;
 }
 
-@media  (max-width: 600px){
-  .team-heading{
+@media (max-width: 600px) {
+  .team-heading {
     font-size: 16px;
   }
 
-  .team-name{
+  .team-name {
     font-size: 16px;
   }
 
-  .team-detail{
+  .team-detail {
     font-size: 12px;
   }
 
+  .team {
+    padding-top: 150px !important;
+    padding-bottom: 0 !important;
+  }
 }
 
-@media  (max-width: 800px){
-    
-  .team-wrapper{
+@media (max-width: 800px) {
+  .team-wrapper {
     flex-direction: column;
     gap: 20px;
   }
 
-  .team-wrapper img{
+  .team-wrapper img {
     width: 200px;
   }
 
-  .team1 , .team2, .team3{
+  .team1,
+  .team2,
+  .team3 {
     text-align: center;
   }
 
-  
-.team {
-padding: 100px;
-}
-  
+  .team {
+    padding: 50px;
+  }
 }
