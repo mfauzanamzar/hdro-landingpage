@@ -4,7 +4,6 @@ import Community from "../images/Community.png";
 import Crypto from "../images/Crypto.png";
 import Transparancy from "../images/Transparancy.png";
 import Authenticity from "../images/Authenticity.png";
-import WorldMap from "../images/WorldMap2.png"
 import { HiArrowSmDown } from 'react-icons/hi';
 
 const TopHero = () => {
